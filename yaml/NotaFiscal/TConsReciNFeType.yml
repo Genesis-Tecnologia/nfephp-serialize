@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TConsReciNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TConsReciNFeType:
     properties:
         versao:
             expose: true

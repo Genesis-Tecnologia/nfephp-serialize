@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType\InfInutAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType\InfInutAType:
     properties:
         id:
             expose: true

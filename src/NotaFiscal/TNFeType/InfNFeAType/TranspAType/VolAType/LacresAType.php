@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType;
 
 /**
  * Class representing LacresAType

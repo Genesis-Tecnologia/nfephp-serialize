@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType:
     properties:
         nDraw:
             expose: true
@@ -19,4 +19,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\
             accessor:
                 getter: getExportInd
                 setter: setExportInd
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType

@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TEnviNFeType
@@ -29,7 +29,7 @@ class TEnviNFeType
     private $indSinc = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType[] $nFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType[] $nFe
      */
     private $nFe = null;
 
@@ -107,9 +107,9 @@ class TEnviNFeType
      * Adds as nFe
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType $nFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType $nFe
      */
-    public function addToNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType $nFe)
+    public function addToNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType $nFe)
     {
         $this->nFe[] = $nFe;
         return $this;
@@ -140,7 +140,7 @@ class TEnviNFeType
     /**
      * Gets as nFe
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType[]
      */
     public function getNFe()
     {
@@ -150,7 +150,7 @@ class TEnviNFeType
     /**
      * Sets a new nFe
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType[] $nFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType[] $nFe
      * @return self
      */
     public function setNFe(array $nFe)

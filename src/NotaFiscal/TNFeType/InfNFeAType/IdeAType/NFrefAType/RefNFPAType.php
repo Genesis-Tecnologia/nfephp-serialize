@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType;
 
 /**
  * Class representing RefNFPAType

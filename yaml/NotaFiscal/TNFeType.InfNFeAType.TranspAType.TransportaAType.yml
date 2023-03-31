@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType:
     properties:
         cNPJ:
             expose: true

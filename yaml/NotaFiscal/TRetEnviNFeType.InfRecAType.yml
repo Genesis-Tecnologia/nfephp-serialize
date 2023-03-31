@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType:
     properties:
         nRec:
             expose: true

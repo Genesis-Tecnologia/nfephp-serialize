@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType:
     properties:
         tpOp:
             expose: true

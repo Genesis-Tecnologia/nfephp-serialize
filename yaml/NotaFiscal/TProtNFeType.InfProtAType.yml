@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType:
     properties:
         id:
             expose: true

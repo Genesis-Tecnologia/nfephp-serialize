@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType;
 
 /**
  * Class representing DetEventoAType

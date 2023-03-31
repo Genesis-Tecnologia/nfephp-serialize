@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType:
             accessor:
                 getter: getEvento
                 setter: setEvento
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType
         retEvento:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType:
             accessor:
                 getter: getRetEvento
                 setter: setRetEvento
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType

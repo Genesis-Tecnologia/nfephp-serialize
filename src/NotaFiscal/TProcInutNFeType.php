@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TProcInutNFeType
@@ -17,12 +17,12 @@ class TProcInutNFeType
     private $versao = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType $inutNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType $inutNFe
      */
     private $inutNFe = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType $retInutNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType $retInutNFe
      */
     private $retInutNFe = null;
 
@@ -51,7 +51,7 @@ class TProcInutNFeType
     /**
      * Gets as inutNFe
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType
      */
     public function getInutNFe()
     {
@@ -61,10 +61,10 @@ class TProcInutNFeType
     /**
      * Sets a new inutNFe
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType $inutNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType $inutNFe
      * @return self
      */
-    public function setInutNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType $inutNFe)
+    public function setInutNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType $inutNFe)
     {
         $this->inutNFe = $inutNFe;
         return $this;
@@ -73,7 +73,7 @@ class TProcInutNFeType
     /**
      * Gets as retInutNFe
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType
      */
     public function getRetInutNFe()
     {
@@ -83,10 +83,10 @@ class TProcInutNFeType
     /**
      * Sets a new retInutNFe
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType $retInutNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType $retInutNFe
      * @return self
      */
-    public function setRetInutNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType $retInutNFe)
+    public function setRetInutNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType $retInutNFe)
     {
         $this->retInutNFe = $retInutNFe;
         return $this;

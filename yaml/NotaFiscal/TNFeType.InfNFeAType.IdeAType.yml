@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType:
     properties:
         cUF:
             expose: true
@@ -243,4 +243,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType:
                 inline: true
                 entry_name: NFref
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType>

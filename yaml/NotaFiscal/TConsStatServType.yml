@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TConsStatServType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TConsStatServType:
     properties:
         versao:
             expose: true

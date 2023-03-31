@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType:
     properties:
         id:
             expose: true
@@ -36,7 +36,7 @@ JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType:
             accessor:
                 getter: getTransforms
                 setter: setTransforms
-            type: array<JansenFelipe\NFePHPSerialize\XMLDSig\TransformType>
+            type: array<GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType>
             xml_list:
                 inline: false
                 entry_name: Transform
@@ -50,7 +50,7 @@ JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType:
             accessor:
                 getter: getDigestMethod
                 setter: setDigestMethod
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
         digestValue:
             expose: true
             access_type: public_method

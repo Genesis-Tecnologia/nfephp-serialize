@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType:
     properties:
         versao:
             expose: true
@@ -78,7 +78,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType:
             accessor:
                 getter: getInfRec
                 setter: setInfRec
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
         protNFe:
             expose: true
             access_type: public_method
@@ -88,4 +88,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType:
             accessor:
                 getter: getProtNFe
                 setter: setProtNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType

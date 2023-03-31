@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\JMS\Serializer;
+namespace GenesisTecnologia\NFePHPSerialize\JMS\Serializer;
 
 use DOMCharacterData;
 use DOMDocument;

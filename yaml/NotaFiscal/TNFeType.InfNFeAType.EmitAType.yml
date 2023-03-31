@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType:
     properties:
         cNPJ:
             expose: true
@@ -49,7 +49,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType:
             accessor:
                 getter: getEnderEmit
                 setter: setEnderEmit
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderEmiType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderEmiType
         iE:
             expose: true
             access_type: public_method

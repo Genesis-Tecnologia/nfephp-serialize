@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing PagAType
@@ -28,7 +28,7 @@ class PagAType
      * Grupo de Cartões
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType
      * $card
      */
     private $card = null;
@@ -95,7 +95,7 @@ class PagAType
      * Grupo de Cartões
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType
      */
     public function getCard()
     {
@@ -108,11 +108,11 @@ class PagAType
      * Grupo de Cartões
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType
      * $card
      * @return self
      */
-    public function setCard(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType $card)
+    public function setCard(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType\CardAType $card)
     {
         $this->card = $card;
         return $this;

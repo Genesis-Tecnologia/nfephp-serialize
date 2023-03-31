@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType;
 
 /**
  * Class representing VolAType
@@ -52,7 +52,7 @@ class VolAType
 
     /**
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType[]
      * $lacres
      */
     private $lacres = null;
@@ -218,10 +218,10 @@ class VolAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType
      * $lacres
      */
-    public function addToLacres(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType $lacres)
+    public function addToLacres(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType $lacres)
     {
         $this->lacres[] = $lacres;
         return $this;
@@ -253,7 +253,7 @@ class VolAType
      * Gets as lacres
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType[]
      */
     public function getLacres()
     {
@@ -264,7 +264,7 @@ class VolAType
      * Sets a new lacres
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType[]
      * $lacres
      * @return self
      */

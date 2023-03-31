@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType:
     properties:
         iCMSTot:
             expose: true
@@ -9,7 +9,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType:
             accessor:
                 getter: getICMSTot
                 setter: setICMSTot
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
         iSSQNtot:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType:
             accessor:
                 getter: getISSQNtot
                 setter: setISSQNtot
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
         retTrib:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType:
             accessor:
                 getter: getRetTrib
                 setter: setRetTrib
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType:
     properties:
         algorithm:
             expose: true

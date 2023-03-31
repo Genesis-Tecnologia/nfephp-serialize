@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\XMLDSig;
+namespace GenesisTecnologia\NFePHPSerialize\XMLDSig;
 
 /**
  * Class representing ReferenceType
@@ -27,12 +27,12 @@ class ReferenceType
     private $type = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\TransformType[] $transforms
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType[] $transforms
      */
     private $transforms = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
      * $digestMethod
      */
     private $digestMethod = null;
@@ -112,9 +112,9 @@ class ReferenceType
      * Adds as transform
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\TransformType $transform
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType $transform
      */
-    public function addToTransforms(\JansenFelipe\NFePHPSerialize\XMLDSig\TransformType $transform)
+    public function addToTransforms(\GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType $transform)
     {
         $this->transforms[] = $transform;
         return $this;
@@ -145,7 +145,7 @@ class ReferenceType
     /**
      * Gets as transforms
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\TransformType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType[]
      */
     public function getTransforms()
     {
@@ -155,7 +155,7 @@ class ReferenceType
     /**
      * Sets a new transforms
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\TransformType[] $transforms
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType[] $transforms
      * @return self
      */
     public function setTransforms(array $transforms)
@@ -167,7 +167,7 @@ class ReferenceType
     /**
      * Gets as digestMethod
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
      */
     public function getDigestMethod()
     {
@@ -177,11 +177,11 @@ class ReferenceType
     /**
      * Sets a new digestMethod
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType
      * $digestMethod
      * @return self
      */
-    public function setDigestMethod(\JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType $digestMethod)
+    public function setDigestMethod(\GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType\DigestMethodAType $digestMethod)
     {
         $this->digestMethod = $digestMethod;
         return $this;

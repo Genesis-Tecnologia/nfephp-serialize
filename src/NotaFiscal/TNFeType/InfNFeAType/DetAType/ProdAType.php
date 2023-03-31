@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType;
 
 /**
  * Class representing ProdAType
@@ -169,7 +169,7 @@ class ProdAType
      * (NT 2011/004)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType[]
      * $dI
      */
     private $dI = null;
@@ -178,7 +178,7 @@ class ProdAType
      * Detalhe da exportação
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType[]
      * $detExport
      */
     private $detExport = null;
@@ -209,7 +209,7 @@ class ProdAType
      * Veículos novos
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
      * $veicProd
      */
     private $veicProd = null;
@@ -218,7 +218,7 @@ class ProdAType
      * grupo do detalhamento de Medicamentos e de matérias-primas farmacêuticas
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType[]
      * $med
      */
     private $med = null;
@@ -227,7 +227,7 @@ class ProdAType
      * Armamentos
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType[]
      * $arma
      */
     private $arma = null;
@@ -236,7 +236,7 @@ class ProdAType
      * Informar apenas para operações com combustíveis líquidos
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
      * $comb
      */
     private $comb = null;
@@ -848,10 +848,10 @@ class ProdAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType
      * $dI
      */
-    public function addToDI(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType $dI)
+    public function addToDI(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType $dI)
     {
         $this->dI[] = $dI;
         return $this;
@@ -892,7 +892,7 @@ class ProdAType
      * (NT 2011/004)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType[]
      */
     public function getDI()
     {
@@ -906,7 +906,7 @@ class ProdAType
      * (NT 2011/004)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType[]
      * $dI
      * @return self
      */
@@ -923,10 +923,10 @@ class ProdAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType
      * $detExport
      */
-    public function addToDetExport(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType $detExport)
+    public function addToDetExport(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType $detExport)
     {
         $this->detExport[] = $detExport;
         return $this;
@@ -964,7 +964,7 @@ class ProdAType
      * Detalhe da exportação
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType[]
      */
     public function getDetExport()
     {
@@ -977,7 +977,7 @@ class ProdAType
      * Detalhe da exportação
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType[]
      * $detExport
      * @return self
      */
@@ -1073,7 +1073,7 @@ class ProdAType
      * Veículos novos
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
      */
     public function getVeicProd()
     {
@@ -1086,11 +1086,11 @@ class ProdAType
      * Veículos novos
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
      * $veicProd
      * @return self
      */
-    public function setVeicProd(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType $veicProd)
+    public function setVeicProd(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType $veicProd)
     {
         $this->veicProd = $veicProd;
         return $this;
@@ -1103,10 +1103,10 @@ class ProdAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType
      * $med
      */
-    public function addToMed(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType $med)
+    public function addToMed(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType $med)
     {
         $this->med[] = $med;
         return $this;
@@ -1144,7 +1144,7 @@ class ProdAType
      * grupo do detalhamento de Medicamentos e de matérias-primas farmacêuticas
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType[]
      */
     public function getMed()
     {
@@ -1157,7 +1157,7 @@ class ProdAType
      * grupo do detalhamento de Medicamentos e de matérias-primas farmacêuticas
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType[]
      * $med
      * @return self
      */
@@ -1174,10 +1174,10 @@ class ProdAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType
      * $arma
      */
-    public function addToArma(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType $arma)
+    public function addToArma(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType $arma)
     {
         $this->arma[] = $arma;
         return $this;
@@ -1215,7 +1215,7 @@ class ProdAType
      * Armamentos
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType[]
      */
     public function getArma()
     {
@@ -1228,7 +1228,7 @@ class ProdAType
      * Armamentos
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType[]
      * $arma
      * @return self
      */
@@ -1244,7 +1244,7 @@ class ProdAType
      * Informar apenas para operações com combustíveis líquidos
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
      */
     public function getComb()
     {
@@ -1257,11 +1257,11 @@ class ProdAType
      * Informar apenas para operações com combustíveis líquidos
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
      * $comb
      * @return self
      */
-    public function setComb(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType $comb)
+    public function setComb(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType $comb)
     {
         $this->comb = $comb;
         return $this;

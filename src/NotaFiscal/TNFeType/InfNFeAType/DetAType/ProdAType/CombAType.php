@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType;
 
 /**
  * Class representing CombAType
@@ -56,7 +56,7 @@ class CombAType
      * CIDE Combustíveis
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType
      * $cIDE
      */
     private $cIDE = null;
@@ -215,7 +215,7 @@ class CombAType
      * CIDE Combustíveis
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType
      */
     public function getCIDE()
     {
@@ -228,11 +228,11 @@ class CombAType
      * CIDE Combustíveis
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType
      * $cIDE
      * @return self
      */
-    public function setCIDE(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType $cIDE)
+    public function setCIDE(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType\CIDEAType $cIDE)
     {
         $this->cIDE = $cIDE;
         return $this;

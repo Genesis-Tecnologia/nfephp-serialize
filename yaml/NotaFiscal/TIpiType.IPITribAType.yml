@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType:
     properties:
         cST:
             expose: true

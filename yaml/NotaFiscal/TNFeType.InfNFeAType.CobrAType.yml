@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType:
     properties:
         fat:
             expose: true
@@ -9,7 +9,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType:
             accessor:
                 getter: getFat
                 setter: setFat
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
         dup:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType:
                 inline: true
                 entry_name: dup
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType>

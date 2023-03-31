@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
     properties:
         cProd:
             expose: true
@@ -217,7 +217,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
                 inline: true
                 entry_name: DI
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType>
         detExport:
             expose: true
             access_type: public_method
@@ -231,7 +231,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
                 inline: true
                 entry_name: detExport
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType>
         xPed:
             expose: true
             access_type: public_method
@@ -271,7 +271,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
             accessor:
                 getter: getVeicProd
                 setter: setVeicProd
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\VeicProdAType
         med:
             expose: true
             access_type: public_method
@@ -285,7 +285,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
                 inline: true
                 entry_name: med
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\MedAType>
         arma:
             expose: true
             access_type: public_method
@@ -299,7 +299,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
                 inline: true
                 entry_name: arma
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\ArmaAType>
         comb:
             expose: true
             access_type: public_method
@@ -309,7 +309,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType:
             accessor:
                 getter: getComb
                 setter: setComb
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\CombAType
         nRECOPI:
             expose: true
             access_type: public_method

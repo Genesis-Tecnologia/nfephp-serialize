@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing DestAType
@@ -39,7 +39,7 @@ class DestAType
     /**
      * Dados do endereço
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderecoType $enderDest
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderecoType $enderDest
      */
     private $enderDest = null;
 
@@ -194,7 +194,7 @@ class DestAType
      *
      * Dados do endereço
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderecoType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderecoType
      */
     public function getEnderDest()
     {
@@ -206,10 +206,10 @@ class DestAType
      *
      * Dados do endereço
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderecoType $enderDest
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderecoType $enderDest
      * @return self
      */
-    public function setEnderDest(\JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderecoType $enderDest)
+    public function setEnderDest(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderecoType $enderDest)
     {
         $this->enderDest = $enderDest;
         return $this;

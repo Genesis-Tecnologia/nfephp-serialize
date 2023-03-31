@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType;
+namespace GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType;
 
 /**
  * Class representing CanonicalizationMethodAType

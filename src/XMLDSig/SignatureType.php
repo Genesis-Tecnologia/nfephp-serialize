@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\XMLDSig;
+namespace GenesisTecnologia\NFePHPSerialize\XMLDSig;
 
 /**
  * Class representing SignatureType
@@ -17,18 +17,18 @@ class SignatureType
     private $id = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType $signedInfo
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType $signedInfo
      */
     private $signedInfo = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\SignatureValueType
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignatureValueType
      * $signatureValue
      */
     private $signatureValue = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType $keyInfo
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\KeyInfoType $keyInfo
      */
     private $keyInfo = null;
 
@@ -57,7 +57,7 @@ class SignatureType
     /**
      * Gets as signedInfo
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType
      */
     public function getSignedInfo()
     {
@@ -67,10 +67,10 @@ class SignatureType
     /**
      * Sets a new signedInfo
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType $signedInfo
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType $signedInfo
      * @return self
      */
-    public function setSignedInfo(\JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType $signedInfo)
+    public function setSignedInfo(\GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType $signedInfo)
     {
         $this->signedInfo = $signedInfo;
         return $this;
@@ -79,7 +79,7 @@ class SignatureType
     /**
      * Gets as signatureValue
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\SignatureValueType
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignatureValueType
      */
     public function getSignatureValue()
     {
@@ -89,10 +89,10 @@ class SignatureType
     /**
      * Sets a new signatureValue
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\SignatureValueType $signatureValue
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignatureValueType $signatureValue
      * @return self
      */
-    public function setSignatureValue(\JansenFelipe\NFePHPSerialize\XMLDSig\SignatureValueType $signatureValue)
+    public function setSignatureValue(\GenesisTecnologia\NFePHPSerialize\XMLDSig\SignatureValueType $signatureValue)
     {
         $this->signatureValue = $signatureValue;
         return $this;
@@ -101,7 +101,7 @@ class SignatureType
     /**
      * Gets as keyInfo
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\KeyInfoType
      */
     public function getKeyInfo()
     {
@@ -111,10 +111,10 @@ class SignatureType
     /**
      * Sets a new keyInfo
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType $keyInfo
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\KeyInfoType $keyInfo
      * @return self
      */
-    public function setKeyInfo(\JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType $keyInfo)
+    public function setKeyInfo(\GenesisTecnologia\NFePHPSerialize\XMLDSig\KeyInfoType $keyInfo)
     {
         $this->keyInfo = $keyInfo;
         return $this;

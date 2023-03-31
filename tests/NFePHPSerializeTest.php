@@ -1,7 +1,7 @@
 <?php
 
-use JansenFelipe\NFePHPSerialize\NFePHPSerialize;
-use JansenFelipe\NFePHPSerialize\NotaFiscal\NfeProc;
+use GenesisTecnologia\NFePHPSerialize\NFePHPSerialize;
+use GenesisTecnologia\NFePHPSerialize\NotaFiscal\NfeProc;
 
 class NFePHPSerializeTest extends PHPUnit_Framework_TestCase {
 

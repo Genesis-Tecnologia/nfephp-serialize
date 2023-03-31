@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType;
 
 /**
  * Class representing InfRecAType

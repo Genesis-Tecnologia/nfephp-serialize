@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType;
 
 /**
  * Class representing ImpostoAType
@@ -19,13 +19,13 @@ class ImpostoAType
      * Dados do ICMS Normal e ST
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
      * $iCMS
      */
     private $iCMS = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType $iPI
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType $iPI
      */
     private $iPI = null;
 
@@ -33,7 +33,7 @@ class ImpostoAType
      * Dados do Imposto de Importação
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
      * $iI
      */
     private $iI = null;
@@ -42,7 +42,7 @@ class ImpostoAType
      * ISSQN
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
      * $iSSQN
      */
     private $iSSQN = null;
@@ -51,7 +51,7 @@ class ImpostoAType
      * Dados do PIS
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
      * $pIS
      */
     private $pIS = null;
@@ -60,7 +60,7 @@ class ImpostoAType
      * Dados do PIS Substituição Tributária
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
      * $pISST
      */
     private $pISST = null;
@@ -69,7 +69,7 @@ class ImpostoAType
      * Dados do COFINS
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
      * $cOFINS
      */
     private $cOFINS = null;
@@ -79,7 +79,7 @@ class ImpostoAType
      * Substituição Tributaria;
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType
      * $cOFINSST
      */
     private $cOFINSST = null;
@@ -116,7 +116,7 @@ class ImpostoAType
      * Dados do ICMS Normal e ST
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
      */
     public function getICMS()
     {
@@ -129,11 +129,11 @@ class ImpostoAType
      * Dados do ICMS Normal e ST
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType
      * $iCMS
      * @return self
      */
-    public function setICMS(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType $iCMS)
+    public function setICMS(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType $iCMS)
     {
         $this->iCMS = $iCMS;
         return $this;
@@ -142,7 +142,7 @@ class ImpostoAType
     /**
      * Gets as iPI
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType
      */
     public function getIPI()
     {
@@ -152,10 +152,10 @@ class ImpostoAType
     /**
      * Sets a new iPI
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType $iPI
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType $iPI
      * @return self
      */
-    public function setIPI(\JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType $iPI)
+    public function setIPI(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType $iPI)
     {
         $this->iPI = $iPI;
         return $this;
@@ -167,7 +167,7 @@ class ImpostoAType
      * Dados do Imposto de Importação
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
      */
     public function getII()
     {
@@ -180,11 +180,11 @@ class ImpostoAType
      * Dados do Imposto de Importação
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType
      * $iI
      * @return self
      */
-    public function setII(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType $iI)
+    public function setII(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\IIAType $iI)
     {
         $this->iI = $iI;
         return $this;
@@ -196,7 +196,7 @@ class ImpostoAType
      * ISSQN
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
      */
     public function getISSQN()
     {
@@ -209,11 +209,11 @@ class ImpostoAType
      * ISSQN
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType
      * $iSSQN
      * @return self
      */
-    public function setISSQN(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType $iSSQN)
+    public function setISSQN(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ISSQNAType $iSSQN)
     {
         $this->iSSQN = $iSSQN;
         return $this;
@@ -225,7 +225,7 @@ class ImpostoAType
      * Dados do PIS
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
      */
     public function getPIS()
     {
@@ -238,11 +238,11 @@ class ImpostoAType
      * Dados do PIS
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType
      * $pIS
      * @return self
      */
-    public function setPIS(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType $pIS)
+    public function setPIS(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType $pIS)
     {
         $this->pIS = $pIS;
         return $this;
@@ -254,7 +254,7 @@ class ImpostoAType
      * Dados do PIS Substituição Tributária
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
      */
     public function getPISST()
     {
@@ -267,11 +267,11 @@ class ImpostoAType
      * Dados do PIS Substituição Tributária
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType
      * $pISST
      * @return self
      */
-    public function setPISST(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType $pISST)
+    public function setPISST(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISSTAType $pISST)
     {
         $this->pISST = $pISST;
         return $this;
@@ -283,7 +283,7 @@ class ImpostoAType
      * Dados do COFINS
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
      */
     public function getCOFINS()
     {
@@ -296,11 +296,11 @@ class ImpostoAType
      * Dados do COFINS
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType
      * $cOFINS
      * @return self
      */
-    public function setCOFINS(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType $cOFINS)
+    public function setCOFINS(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType $cOFINS)
     {
         $this->cOFINS = $cOFINS;
         return $this;
@@ -313,7 +313,7 @@ class ImpostoAType
      * Substituição Tributaria;
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType
      */
     public function getCOFINSST()
     {
@@ -327,11 +327,11 @@ class ImpostoAType
      * Substituição Tributaria;
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType
      * $cOFINSST
      * @return self
      */
-    public function setCOFINSST(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType $cOFINSST)
+    public function setCOFINSST(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSSTAType $cOFINSST)
     {
         $this->cOFINSST = $cOFINSST;
         return $this;

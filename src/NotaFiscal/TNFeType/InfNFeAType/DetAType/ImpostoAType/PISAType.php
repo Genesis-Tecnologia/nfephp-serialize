@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType;
 
 /**
  * Class representing PISAType
@@ -16,7 +16,7 @@ class PISAType
      * Diferenciada);
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
      * $pISAliq
      */
     private $pISAliq = null;
@@ -27,7 +27,7 @@ class PISAType
      * por Unidade de Produto;
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
      * $pISQtde
      */
     private $pISQtde = null;
@@ -41,7 +41,7 @@ class PISAType
      * 09 - Operação com suspensão da contribuição;
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
      * $pISNT
      */
     private $pISNT = null;
@@ -51,7 +51,7 @@ class PISAType
      * 99 - Outras Operações.
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType
      * $pISOutr
      */
     private $pISOutr = null;
@@ -66,7 +66,7 @@ class PISAType
      * Diferenciada);
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
      */
     public function getPISAliq()
     {
@@ -83,11 +83,11 @@ class PISAType
      * Diferenciada);
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType
      * $pISAliq
      * @return self
      */
-    public function setPISAliq(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType $pISAliq)
+    public function setPISAliq(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISAliqAType $pISAliq)
     {
         $this->pISAliq = $pISAliq;
         return $this;
@@ -101,7 +101,7 @@ class PISAType
      * por Unidade de Produto;
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
      */
     public function getPISQtde()
     {
@@ -116,11 +116,11 @@ class PISAType
      * por Unidade de Produto;
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType
      * $pISQtde
      * @return self
      */
-    public function setPISQtde(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType $pISQtde)
+    public function setPISQtde(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISQtdeAType $pISQtde)
     {
         $this->pISQtde = $pISQtde;
         return $this;
@@ -137,7 +137,7 @@ class PISAType
      * 09 - Operação com suspensão da contribuição;
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
      */
     public function getPISNT()
     {
@@ -155,11 +155,11 @@ class PISAType
      * 09 - Operação com suspensão da contribuição;
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType
      * $pISNT
      * @return self
      */
-    public function setPISNT(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType $pISNT)
+    public function setPISNT(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISNTAType $pISNT)
     {
         $this->pISNT = $pISNT;
         return $this;
@@ -172,7 +172,7 @@ class PISAType
      * 99 - Outras Operações.
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType
      */
     public function getPISOutr()
     {
@@ -186,11 +186,11 @@ class PISAType
      * 99 - Outras Operações.
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType
      * $pISOutr
      * @return self
      */
-    public function setPISOutr(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType $pISOutr)
+    public function setPISOutr(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\PISAType\PISOutrAType $pISOutr)
     {
         $this->pISOutr = $pISOutr;
         return $this;

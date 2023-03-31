@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType;
 
 /**
  * Class representing ICMSAType
@@ -13,7 +13,7 @@ class ICMSAType
      * 00 - Tributada integralmente
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType
      * $iCMS00
      */
     private $iCMS00 = null;
@@ -23,7 +23,7 @@ class ICMSAType
      * 10 - Tributada e com cobrança do ICMS por substituição tributária
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType
      * $iCMS10
      */
     private $iCMS10 = null;
@@ -33,7 +33,7 @@ class ICMSAType
      * 20 - Com redução de base de cálculo
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType
      * $iCMS20
      */
     private $iCMS20 = null;
@@ -44,7 +44,7 @@ class ICMSAType
      * tributária
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType
      * $iCMS30
      */
     private $iCMS30 = null;
@@ -56,7 +56,7 @@ class ICMSAType
      * 50 - Suspensão
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType
      * $iCMS40
      */
     private $iCMS40 = null;
@@ -68,7 +68,7 @@ class ICMSAType
      * critério de cada UF.
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType
      * $iCMS51
      */
     private $iCMS51 = null;
@@ -78,7 +78,7 @@ class ICMSAType
      * 60 - ICMS cobrado anteriormente por substituição tributária
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType
      * $iCMS60
      */
     private $iCMS60 = null;
@@ -89,7 +89,7 @@ class ICMSAType
      * tributária
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType
      * $iCMS70
      */
     private $iCMS70 = null;
@@ -99,7 +99,7 @@ class ICMSAType
      * 90 - Outras
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType
      * $iCMS90
      */
     private $iCMS90 = null;
@@ -112,7 +112,7 @@ class ICMSAType
      * legislação. (Ex. UF da concessionária de entrega do veículos)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType
      * $iCMSPart
      */
     private $iCMSPart = null;
@@ -123,7 +123,7 @@ class ICMSAType
      * UF do remetente. Repasse via Substituto Tributário.
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType
      * $iCMSST
      */
     private $iCMSST = null;
@@ -132,7 +132,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=101 (v.2.0)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType
      * $iCMSSN101
      */
     private $iCMSSN101 = null;
@@ -141,7 +141,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=102, 103, 300 ou 400 (v.2.0))
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType
      * $iCMSSN102
      */
     private $iCMSSN102 = null;
@@ -150,7 +150,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=201 (v.2.0)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType
      * $iCMSSN201
      */
     private $iCMSSN201 = null;
@@ -159,7 +159,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=202 ou 203 (v.2.0)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType
      * $iCMSSN202
      */
     private $iCMSSN202 = null;
@@ -169,7 +169,7 @@ class ICMSAType
      * CSOSN=500 (v.2.0)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType
      * $iCMSSN500
      */
     private $iCMSSN500 = null;
@@ -179,7 +179,7 @@ class ICMSAType
      * CSOSN=900 (v2.0)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType
      * $iCMSSN900
      */
     private $iCMSSN900 = null;
@@ -191,7 +191,7 @@ class ICMSAType
      * 00 - Tributada integralmente
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType
      */
     public function getICMS00()
     {
@@ -205,11 +205,11 @@ class ICMSAType
      * 00 - Tributada integralmente
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType
      * $iCMS00
      * @return self
      */
-    public function setICMS00(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType $iCMS00)
+    public function setICMS00(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS00AType $iCMS00)
     {
         $this->iCMS00 = $iCMS00;
         return $this;
@@ -222,7 +222,7 @@ class ICMSAType
      * 10 - Tributada e com cobrança do ICMS por substituição tributária
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType
      */
     public function getICMS10()
     {
@@ -236,11 +236,11 @@ class ICMSAType
      * 10 - Tributada e com cobrança do ICMS por substituição tributária
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType
      * $iCMS10
      * @return self
      */
-    public function setICMS10(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType $iCMS10)
+    public function setICMS10(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS10AType $iCMS10)
     {
         $this->iCMS10 = $iCMS10;
         return $this;
@@ -253,7 +253,7 @@ class ICMSAType
      * 20 - Com redução de base de cálculo
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType
      */
     public function getICMS20()
     {
@@ -267,11 +267,11 @@ class ICMSAType
      * 20 - Com redução de base de cálculo
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType
      * $iCMS20
      * @return self
      */
-    public function setICMS20(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType $iCMS20)
+    public function setICMS20(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS20AType $iCMS20)
     {
         $this->iCMS20 = $iCMS20;
         return $this;
@@ -285,7 +285,7 @@ class ICMSAType
      * tributária
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType
      */
     public function getICMS30()
     {
@@ -300,11 +300,11 @@ class ICMSAType
      * tributária
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType
      * $iCMS30
      * @return self
      */
-    public function setICMS30(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType $iCMS30)
+    public function setICMS30(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS30AType $iCMS30)
     {
         $this->iCMS30 = $iCMS30;
         return $this;
@@ -319,7 +319,7 @@ class ICMSAType
      * 50 - Suspensão
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType
      */
     public function getICMS40()
     {
@@ -335,11 +335,11 @@ class ICMSAType
      * 50 - Suspensão
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType
      * $iCMS40
      * @return self
      */
-    public function setICMS40(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType $iCMS40)
+    public function setICMS40(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS40AType $iCMS40)
     {
         $this->iCMS40 = $iCMS40;
         return $this;
@@ -354,7 +354,7 @@ class ICMSAType
      * critério de cada UF.
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType
      */
     public function getICMS51()
     {
@@ -370,11 +370,11 @@ class ICMSAType
      * critério de cada UF.
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType
      * $iCMS51
      * @return self
      */
-    public function setICMS51(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType $iCMS51)
+    public function setICMS51(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS51AType $iCMS51)
     {
         $this->iCMS51 = $iCMS51;
         return $this;
@@ -387,7 +387,7 @@ class ICMSAType
      * 60 - ICMS cobrado anteriormente por substituição tributária
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType
      */
     public function getICMS60()
     {
@@ -401,11 +401,11 @@ class ICMSAType
      * 60 - ICMS cobrado anteriormente por substituição tributária
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType
      * $iCMS60
      * @return self
      */
-    public function setICMS60(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType $iCMS60)
+    public function setICMS60(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS60AType $iCMS60)
     {
         $this->iCMS60 = $iCMS60;
         return $this;
@@ -419,7 +419,7 @@ class ICMSAType
      * tributária
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType
      */
     public function getICMS70()
     {
@@ -434,11 +434,11 @@ class ICMSAType
      * tributária
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType
      * $iCMS70
      * @return self
      */
-    public function setICMS70(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType $iCMS70)
+    public function setICMS70(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS70AType $iCMS70)
     {
         $this->iCMS70 = $iCMS70;
         return $this;
@@ -451,7 +451,7 @@ class ICMSAType
      * 90 - Outras
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType
      */
     public function getICMS90()
     {
@@ -465,11 +465,11 @@ class ICMSAType
      * 90 - Outras
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType
      * $iCMS90
      * @return self
      */
-    public function setICMS90(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType $iCMS90)
+    public function setICMS90(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMS90AType $iCMS90)
     {
         $this->iCMS90 = $iCMS90;
         return $this;
@@ -485,7 +485,7 @@ class ICMSAType
      * legislação. (Ex. UF da concessionária de entrega do veículos)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType
      */
     public function getICMSPart()
     {
@@ -502,11 +502,11 @@ class ICMSAType
      * legislação. (Ex. UF da concessionária de entrega do veículos)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType
      * $iCMSPart
      * @return self
      */
-    public function setICMSPart(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType $iCMSPart)
+    public function setICMSPart(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSPartAType $iCMSPart)
     {
         $this->iCMSPart = $iCMSPart;
         return $this;
@@ -520,7 +520,7 @@ class ICMSAType
      * UF do remetente. Repasse via Substituto Tributário.
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType
      */
     public function getICMSST()
     {
@@ -535,11 +535,11 @@ class ICMSAType
      * UF do remetente. Repasse via Substituto Tributário.
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType
      * $iCMSST
      * @return self
      */
-    public function setICMSST(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType $iCMSST)
+    public function setICMSST(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSTAType $iCMSST)
     {
         $this->iCMSST = $iCMSST;
         return $this;
@@ -551,7 +551,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=101 (v.2.0)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType
      */
     public function getICMSSN101()
     {
@@ -564,11 +564,11 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=101 (v.2.0)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType
      * $iCMSSN101
      * @return self
      */
-    public function setICMSSN101(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType $iCMSSN101)
+    public function setICMSSN101(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN101AType $iCMSSN101)
     {
         $this->iCMSSN101 = $iCMSSN101;
         return $this;
@@ -580,7 +580,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=102, 103, 300 ou 400 (v.2.0))
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType
      */
     public function getICMSSN102()
     {
@@ -593,11 +593,11 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=102, 103, 300 ou 400 (v.2.0))
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType
      * $iCMSSN102
      * @return self
      */
-    public function setICMSSN102(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType $iCMSSN102)
+    public function setICMSSN102(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN102AType $iCMSSN102)
     {
         $this->iCMSSN102 = $iCMSSN102;
         return $this;
@@ -609,7 +609,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=201 (v.2.0)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType
      */
     public function getICMSSN201()
     {
@@ -622,11 +622,11 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=201 (v.2.0)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType
      * $iCMSSN201
      * @return self
      */
-    public function setICMSSN201(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType $iCMSSN201)
+    public function setICMSSN201(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN201AType $iCMSSN201)
     {
         $this->iCMSSN201 = $iCMSSN201;
         return $this;
@@ -638,7 +638,7 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=202 ou 203 (v.2.0)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType
      */
     public function getICMSSN202()
     {
@@ -651,11 +651,11 @@ class ICMSAType
      * Tributação do ICMS pelo SIMPLES NACIONAL e CSOSN=202 ou 203 (v.2.0)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType
      * $iCMSSN202
      * @return self
      */
-    public function setICMSSN202(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType $iCMSSN202)
+    public function setICMSSN202(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN202AType $iCMSSN202)
     {
         $this->iCMSSN202 = $iCMSSN202;
         return $this;
@@ -668,7 +668,7 @@ class ICMSAType
      * CSOSN=500 (v.2.0)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType
      */
     public function getICMSSN500()
     {
@@ -682,11 +682,11 @@ class ICMSAType
      * CSOSN=500 (v.2.0)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType
      * $iCMSSN500
      * @return self
      */
-    public function setICMSSN500(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType $iCMSSN500)
+    public function setICMSSN500(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN500AType $iCMSSN500)
     {
         $this->iCMSSN500 = $iCMSSN500;
         return $this;
@@ -699,7 +699,7 @@ class ICMSAType
      * CSOSN=900 (v2.0)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType
      */
     public function getICMSSN900()
     {
@@ -713,11 +713,11 @@ class ICMSAType
      * CSOSN=900 (v2.0)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType
      * $iCMSSN900
      * @return self
      */
-    public function setICMSSN900(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType $iCMSSN900)
+    public function setICMSSN900(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\ICMSAType\ICMSSN900AType $iCMSSN900)
     {
         $this->iCMSSN900 = $iCMSSN900;
         return $this;

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType:
     properties:
         qVol:
             expose: true
@@ -73,4 +73,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolATyp
                 inline: true
                 entry_name: lacres
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType\LacresAType>

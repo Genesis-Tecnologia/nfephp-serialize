@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TRetInutNFeType
@@ -21,13 +21,13 @@ class TRetInutNFeType
      * Dados do Retorno do Pedido de Inutilização de Numeração da Nota Fiscal
      * Eletrônica
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
      * $infInut
      */
     private $infInut = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature
      */
     private $signature = null;
 
@@ -59,7 +59,7 @@ class TRetInutNFeType
      * Dados do Retorno do Pedido de Inutilização de Numeração da Nota Fiscal
      * Eletrônica
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
      */
     public function getInfInut()
     {
@@ -72,11 +72,11 @@ class TRetInutNFeType
      * Dados do Retorno do Pedido de Inutilização de Numeração da Nota Fiscal
      * Eletrônica
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
      * $infInut
      * @return self
      */
-    public function setInfInut(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType $infInut)
+    public function setInfInut(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType $infInut)
     {
         $this->infInut = $infInut;
         return $this;
@@ -85,7 +85,7 @@ class TRetInutNFeType
     /**
      * Gets as signature
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature
      */
     public function getSignature()
     {
@@ -95,10 +95,10 @@ class TRetInutNFeType
     /**
      * Sets a new signature
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature
      * @return self
      */
-    public function setSignature(\JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature)
+    public function setSignature(\GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature)
     {
         $this->signature = $signature;
         return $this;

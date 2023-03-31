@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType:
     properties:
         nItem:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType:
             accessor:
                 getter: getProd
                 setter: setProd
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
         imposto:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType:
             accessor:
                 getter: getImposto
                 setter: setImposto
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
         impostoDevol:
             expose: true
             access_type: public_method
@@ -38,7 +38,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType:
             accessor:
                 getter: getImpostoDevol
                 setter: setImpostoDevol
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
         infAdProd:
             expose: true
             access_type: public_method

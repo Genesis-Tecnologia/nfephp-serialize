@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetConsSitNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetConsSitNFeType:
     properties:
         versao:
             expose: true
@@ -88,7 +88,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetConsSitNFeType:
             accessor:
                 getter: getProtNFe
                 setter: setProtNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType
         retCancNFe:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetConsSitNFeType:
             accessor:
                 getter: getRetCancNFe
                 setter: setRetCancNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType
         procEventoNFe:
             expose: true
             access_type: public_method
@@ -112,4 +112,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetConsSitNFeType:
                 inline: true
                 entry_name: procEventoNFe
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType>

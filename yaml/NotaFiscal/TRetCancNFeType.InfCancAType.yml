@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType:
     properties:
         id:
             expose: true

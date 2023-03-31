@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TConsSitNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TConsSitNFeType:
     properties:
         versao:
             expose: true

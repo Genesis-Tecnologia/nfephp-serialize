@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType:
     properties:
         id:
             expose: true
@@ -108,4 +108,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType:
             accessor:
                 getter: getDetEvento
                 setter: setDetEvento
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType

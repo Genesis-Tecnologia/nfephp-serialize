@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType;
 
 /**
  * Class representing DIAType
@@ -94,7 +94,7 @@ class DIAType
      * Adições (NT 2011/004)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType[]
      * $adi
      */
     private $adi = null;
@@ -402,10 +402,10 @@ class DIAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType
      * $adi
      */
-    public function addToAdi(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType $adi)
+    public function addToAdi(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType $adi)
     {
         $this->adi[] = $adi;
         return $this;
@@ -443,7 +443,7 @@ class DIAType
      * Adições (NT 2011/004)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType[]
      */
     public function getAdi()
     {
@@ -456,7 +456,7 @@ class DIAType
      * Adições (NT 2011/004)
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DIAType\AdiAType[]
      * $adi
      * @return self
      */

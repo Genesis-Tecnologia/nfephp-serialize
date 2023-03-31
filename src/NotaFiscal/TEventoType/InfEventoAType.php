@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType;
 
 /**
  * Class representing InfEventoAType
@@ -89,7 +89,7 @@ class InfEventoAType
      * Detalhe Específico do Evento
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
      * $detEvento
      */
     private $detEvento = null;
@@ -374,7 +374,7 @@ class InfEventoAType
      * Detalhe Específico do Evento
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
      */
     public function getDetEvento()
     {
@@ -387,11 +387,11 @@ class InfEventoAType
      * Detalhe Específico do Evento
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType
      * $detEvento
      * @return self
      */
-    public function setDetEvento(\JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType $detEvento)
+    public function setDetEvento(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType\DetEventoAType $detEvento)
     {
         $this->detEvento = $detEvento;
         return $this;

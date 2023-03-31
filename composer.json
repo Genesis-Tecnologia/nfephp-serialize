@@ -1,12 +1,12 @@
 {
-    "name": "jansenfelipe/nfephp-serialize",
+    "name": "genesis-tecnologia/nfephp-serialize",
     "description": "Transforme NFe(xml) em objetos PHP (e vice-versa)",
     "keywords": ["nfephp", "nfe", "php"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jansen Felipe",
-            "email": "jansen.felipe@gmail.com"
+            "name": "Jean Rodrigo Santos",
+            "email": "rodrigo.santospdt@gmail.com"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JansenFelipe\\NFePHPSerialize\\": "src"
+            "GenesisTecnologia\\NFePHPSerialize\\": "src"
         }
     },
     "config":{

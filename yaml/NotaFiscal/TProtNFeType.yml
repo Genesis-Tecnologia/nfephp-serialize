@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType:
             accessor:
                 getter: getInfProt
                 setter: setInfProt
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType\InfProtAType
         signature:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature

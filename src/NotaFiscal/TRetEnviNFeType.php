@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TRetEnviNFeType
@@ -63,7 +63,7 @@ class TRetEnviNFeType
     /**
      * Dados do Recibo do Lote
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
      * $infRec
      */
     private $infRec = null;
@@ -71,7 +71,7 @@ class TRetEnviNFeType
     /**
      * Protocolo de status resultado do processamento sincrono da NFC-e
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      */
     private $protNFe = null;
 
@@ -262,7 +262,7 @@ class TRetEnviNFeType
      *
      * Dados do Recibo do Lote
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
      */
     public function getInfRec()
     {
@@ -274,11 +274,11 @@ class TRetEnviNFeType
      *
      * Dados do Recibo do Lote
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType
      * $infRec
      * @return self
      */
-    public function setInfRec(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType $infRec)
+    public function setInfRec(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEnviNFeType\InfRecAType $infRec)
     {
         $this->infRec = $infRec;
         return $this;
@@ -289,7 +289,7 @@ class TRetEnviNFeType
      *
      * Protocolo de status resultado do processamento sincrono da NFC-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType
      */
     public function getProtNFe()
     {
@@ -301,10 +301,10 @@ class TRetEnviNFeType
      *
      * Protocolo de status resultado do processamento sincrono da NFC-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      * @return self
      */
-    public function setProtNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
+    public function setProtNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
     {
         $this->protNFe = $protNFe;
         return $this;

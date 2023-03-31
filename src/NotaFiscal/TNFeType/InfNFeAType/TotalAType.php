@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing TotalAType
@@ -12,7 +12,7 @@ class TotalAType
      * Totais referentes ao ICMS
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
      * $iCMSTot
      */
     private $iCMSTot = null;
@@ -21,7 +21,7 @@ class TotalAType
      * Totais referentes ao ISSQN
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
      * $iSSQNtot
      */
     private $iSSQNtot = null;
@@ -30,7 +30,7 @@ class TotalAType
      * Retenção de Tributos Federais
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
      * $retTrib
      */
     private $retTrib = null;
@@ -41,7 +41,7 @@ class TotalAType
      * Totais referentes ao ICMS
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
      */
     public function getICMSTot()
     {
@@ -54,11 +54,11 @@ class TotalAType
      * Totais referentes ao ICMS
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType
      * $iCMSTot
      * @return self
      */
-    public function setICMSTot(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType $iCMSTot)
+    public function setICMSTot(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ICMSTotAType $iCMSTot)
     {
         $this->iCMSTot = $iCMSTot;
         return $this;
@@ -70,7 +70,7 @@ class TotalAType
      * Totais referentes ao ISSQN
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
      */
     public function getISSQNtot()
     {
@@ -83,11 +83,11 @@ class TotalAType
      * Totais referentes ao ISSQN
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType
      * $iSSQNtot
      * @return self
      */
-    public function setISSQNtot(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType $iSSQNtot)
+    public function setISSQNtot(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\ISSQNtotAType $iSSQNtot)
     {
         $this->iSSQNtot = $iSSQNtot;
         return $this;
@@ -99,7 +99,7 @@ class TotalAType
      * Retenção de Tributos Federais
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
      */
     public function getRetTrib()
     {
@@ -112,11 +112,11 @@ class TotalAType
      * Retenção de Tributos Federais
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType
      * $retTrib
      * @return self
      */
-    public function setRetTrib(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType $retTrib)
+    public function setRetTrib(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType\RetTribAType $retTrib)
     {
         $this->retTrib = $retTrib;
         return $this;

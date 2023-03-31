@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType;
 
 /**
  * Class representing IPITribAType

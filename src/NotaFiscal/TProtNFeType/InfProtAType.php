@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType;
 
 /**
  * Class representing InfProtAType

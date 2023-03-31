@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing DetAType
@@ -19,7 +19,7 @@ class DetAType
      * Dados dos produtos e serviços da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
      * $prod
      */
     private $prod = null;
@@ -28,14 +28,14 @@ class DetAType
      * Tributos incidentes nos produtos ou serviços da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
      * $imposto
      */
     private $imposto = null;
 
     /**
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
      * $impostoDevol
      */
     private $impostoDevol = null;
@@ -80,7 +80,7 @@ class DetAType
      * Dados dos produtos e serviços da NF-e
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
      */
     public function getProd()
     {
@@ -93,11 +93,11 @@ class DetAType
      * Dados dos produtos e serviços da NF-e
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType
      * $prod
      * @return self
      */
-    public function setProd(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType $prod)
+    public function setProd(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType $prod)
     {
         $this->prod = $prod;
         return $this;
@@ -109,7 +109,7 @@ class DetAType
      * Tributos incidentes nos produtos ou serviços da NF-e
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
      */
     public function getImposto()
     {
@@ -122,11 +122,11 @@ class DetAType
      * Tributos incidentes nos produtos ou serviços da NF-e
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType
      * $imposto
      * @return self
      */
-    public function setImposto(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType $imposto)
+    public function setImposto(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType $imposto)
     {
         $this->imposto = $imposto;
         return $this;
@@ -136,7 +136,7 @@ class DetAType
      * Gets as impostoDevol
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
      */
     public function getImpostoDevol()
     {
@@ -147,11 +147,11 @@ class DetAType
      * Sets a new impostoDevol
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType
      * $impostoDevol
      * @return self
      */
-    public function setImpostoDevol(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType $impostoDevol)
+    public function setImpostoDevol(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType $impostoDevol)
     {
         $this->impostoDevol = $impostoDevol;
         return $this;

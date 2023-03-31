@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TRetConsReciNFeType
@@ -87,7 +87,7 @@ class TRetConsReciNFeType
     /**
      * Protocolo de status resultado do processamento da NF-e
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType[] $protNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType[] $protNFe
      */
     private $protNFe = null;
 
@@ -361,9 +361,9 @@ class TRetConsReciNFeType
      * Protocolo de status resultado do processamento da NF-e
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      */
-    public function addToProtNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
+    public function addToProtNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
     {
         $this->protNFe[] = $protNFe;
         return $this;
@@ -400,7 +400,7 @@ class TRetConsReciNFeType
      *
      * Protocolo de status resultado do processamento da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType[]
      */
     public function getProtNFe()
     {
@@ -412,7 +412,7 @@ class TRetConsReciNFeType
      *
      * Protocolo de status resultado do processamento da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType[] $protNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType[] $protNFe
      * @return self
      */
     public function setProtNFe(array $protNFe)

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\KeyInfoType:
     properties:
         id:
             expose: true
@@ -18,4 +18,4 @@ JansenFelipe\NFePHPSerialize\XMLDSig\KeyInfoType:
             accessor:
                 getter: getX509Data
                 setter: setX509Data
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\X509DataType
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\X509DataType

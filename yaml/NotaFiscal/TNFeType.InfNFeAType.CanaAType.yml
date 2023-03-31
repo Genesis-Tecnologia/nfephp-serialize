@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType:
     properties:
         safra:
             expose: true
@@ -33,7 +33,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType:
                 inline: true
                 entry_name: forDia
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType>
         qTotMes:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType:
                 inline: true
                 entry_name: deduc
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType>
         vFor:
             expose: true
             access_type: public_method

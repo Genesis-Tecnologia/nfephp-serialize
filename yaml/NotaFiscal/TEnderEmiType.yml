@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderEmiType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderEmiType:
     properties:
         xLgr:
             expose: true

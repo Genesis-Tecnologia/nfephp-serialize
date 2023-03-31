@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType:
     properties:
         placa:
             expose: true

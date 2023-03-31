@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType;
 
 /**
  * Class representing InfEventoAType

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType:
             accessor:
                 getter: getInfInut
                 setter: setInfInut
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType\InfInutAType
         signature:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature

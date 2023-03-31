@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType:
             accessor:
                 getter: getInfEvento
                 setter: setInfEvento
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType\InfEventoAType
         signature:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature

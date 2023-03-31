@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TRetConsSitNFeType
@@ -71,21 +71,21 @@ class TRetConsSitNFeType
     /**
      * Protocolo de autorização de uso da NF-e
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      */
     private $protNFe = null;
 
     /**
      * Protocolo de homologação de cancelamento de uso da NF-e
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType $retCancNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType $retCancNFe
      */
     private $retCancNFe = null;
 
     /**
      * Protocolo de registro de evento da NF-e
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType[]
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType[]
      * $procEventoNFe
      */
     private $procEventoNFe = null;
@@ -303,7 +303,7 @@ class TRetConsSitNFeType
      *
      * Protocolo de autorização de uso da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType
      */
     public function getProtNFe()
     {
@@ -315,10 +315,10 @@ class TRetConsSitNFeType
      *
      * Protocolo de autorização de uso da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      * @return self
      */
-    public function setProtNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
+    public function setProtNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
     {
         $this->protNFe = $protNFe;
         return $this;
@@ -329,7 +329,7 @@ class TRetConsSitNFeType
      *
      * Protocolo de homologação de cancelamento de uso da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType
      */
     public function getRetCancNFe()
     {
@@ -341,10 +341,10 @@ class TRetConsSitNFeType
      *
      * Protocolo de homologação de cancelamento de uso da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType $retCancNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType $retCancNFe
      * @return self
      */
-    public function setRetCancNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType $retCancNFe)
+    public function setRetCancNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType $retCancNFe)
     {
         $this->retCancNFe = $retCancNFe;
         return $this;
@@ -356,9 +356,9 @@ class TRetConsSitNFeType
      * Protocolo de registro de evento da NF-e
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType $procEventoNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType $procEventoNFe
      */
-    public function addToProcEventoNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType $procEventoNFe)
+    public function addToProcEventoNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType $procEventoNFe)
     {
         $this->procEventoNFe[] = $procEventoNFe;
         return $this;
@@ -395,7 +395,7 @@ class TRetConsSitNFeType
      *
      * Protocolo de registro de evento da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType[]
      */
     public function getProcEventoNFe()
     {
@@ -407,7 +407,7 @@ class TRetConsSitNFeType
      *
      * Protocolo de registro de evento da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProcEventoType[] $procEventoNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcEventoType[] $procEventoNFe
      * @return self
      */
     public function setProcEventoNFe(array $procEventoNFe)

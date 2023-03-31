@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType;
 
 /**
  * Class representing InfInutAType

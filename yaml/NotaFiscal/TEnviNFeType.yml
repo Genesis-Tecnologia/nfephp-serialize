@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TEnviNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnviNFeType:
     properties:
         versao:
             expose: true
@@ -42,4 +42,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TEnviNFeType:
                 inline: true
                 entry_name: NFe
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType>

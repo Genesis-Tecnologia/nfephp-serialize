@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\XMLDSig;
+namespace GenesisTecnologia\NFePHPSerialize\XMLDSig;
 
 /**
  * Class representing SignedInfoType
@@ -18,20 +18,20 @@ class SignedInfoType
 
     /**
      * @property
-     * \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
+     * \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
      * $canonicalizationMethod
      */
     private $canonicalizationMethod = null;
 
     /**
      * @property
-     * \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
+     * \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
      * $signatureMethod
      */
     private $signatureMethod = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType $reference
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType $reference
      */
     private $reference = null;
 
@@ -61,7 +61,7 @@ class SignedInfoType
      * Gets as canonicalizationMethod
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
+     * \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
      */
     public function getCanonicalizationMethod()
     {
@@ -72,11 +72,11 @@ class SignedInfoType
      * Sets a new canonicalizationMethod
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
+     * \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
      * $canonicalizationMethod
      * @return self
      */
-    public function setCanonicalizationMethod(\JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType $canonicalizationMethod)
+    public function setCanonicalizationMethod(\GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType $canonicalizationMethod)
     {
         $this->canonicalizationMethod = $canonicalizationMethod;
         return $this;
@@ -86,7 +86,7 @@ class SignedInfoType
      * Gets as signatureMethod
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
+     * \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
      */
     public function getSignatureMethod()
     {
@@ -96,11 +96,11 @@ class SignedInfoType
     /**
      * Sets a new signatureMethod
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
      * $signatureMethod
      * @return self
      */
-    public function setSignatureMethod(\JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType $signatureMethod)
+    public function setSignatureMethod(\GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType $signatureMethod)
     {
         $this->signatureMethod = $signatureMethod;
         return $this;
@@ -109,7 +109,7 @@ class SignedInfoType
     /**
      * Gets as reference
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType
      */
     public function getReference()
     {
@@ -119,10 +119,10 @@ class SignedInfoType
     /**
      * Sets a new reference
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType $reference
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType $reference
      * @return self
      */
-    public function setReference(\JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType $reference)
+    public function setReference(\GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType $reference)
     {
         $this->reference = $reference;
         return $this;

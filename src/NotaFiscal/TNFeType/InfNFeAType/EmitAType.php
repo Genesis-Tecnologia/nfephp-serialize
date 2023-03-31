@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing EmitAType
@@ -39,7 +39,7 @@ class EmitAType
     /**
      * Endereço do emitente
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderEmiType $enderEmit
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderEmiType $enderEmit
      */
     private $enderEmit = null;
 
@@ -191,7 +191,7 @@ class EmitAType
      *
      * Endereço do emitente
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderEmiType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderEmiType
      */
     public function getEnderEmit()
     {
@@ -203,10 +203,10 @@ class EmitAType
      *
      * Endereço do emitente
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderEmiType $enderEmit
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderEmiType $enderEmit
      * @return self
      */
-    public function setEnderEmit(\JansenFelipe\NFePHPSerialize\NotaFiscal\TEnderEmiType $enderEmit)
+    public function setEnderEmit(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEnderEmiType $enderEmit)
     {
         $this->enderEmit = $enderEmit;
         return $this;

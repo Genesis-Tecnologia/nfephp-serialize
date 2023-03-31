@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType;
 
 /**
  * Class representing NFrefAType
@@ -21,7 +21,7 @@ class NFrefAType
      * Dados da NF modelo 1/1A referenciada
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType
      * $refNF
      */
     private $refNF = null;
@@ -30,7 +30,7 @@ class NFrefAType
      * Grupo com as informações NF de produtor referenciada
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType
      * $refNFP
      */
     private $refNFP = null;
@@ -47,7 +47,7 @@ class NFrefAType
      * Grupo do Cupom Fiscal vinculado à NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType
      * $refECF
      */
     private $refECF = null;
@@ -88,7 +88,7 @@ class NFrefAType
      * Dados da NF modelo 1/1A referenciada
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType
      */
     public function getRefNF()
     {
@@ -101,11 +101,11 @@ class NFrefAType
      * Dados da NF modelo 1/1A referenciada
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType
      * $refNF
      * @return self
      */
-    public function setRefNF(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType $refNF)
+    public function setRefNF(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFAType $refNF)
     {
         $this->refNF = $refNF;
         return $this;
@@ -117,7 +117,7 @@ class NFrefAType
      * Grupo com as informações NF de produtor referenciada
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType
      */
     public function getRefNFP()
     {
@@ -130,11 +130,11 @@ class NFrefAType
      * Grupo com as informações NF de produtor referenciada
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType
      * $refNFP
      * @return self
      */
-    public function setRefNFP(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType $refNFP)
+    public function setRefNFP(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefNFPAType $refNFP)
     {
         $this->refNFP = $refNFP;
         return $this;
@@ -174,7 +174,7 @@ class NFrefAType
      * Grupo do Cupom Fiscal vinculado à NF-e
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType
      */
     public function getRefECF()
     {
@@ -187,11 +187,11 @@ class NFrefAType
      * Grupo do Cupom Fiscal vinculado à NF-e
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType
      * $refECF
      * @return self
      */
-    public function setRefECF(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType $refECF)
+    public function setRefECF(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType\NFrefAType\RefECFAType $refECF)
     {
         $this->refECF = $refECF;
         return $this;

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType:
     properties:
         clEnq:
             expose: true
@@ -59,7 +59,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType:
             accessor:
                 getter: getIPITrib
                 setter: setIPITrib
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
         iPINT:
             expose: true
             access_type: public_method
@@ -69,4 +69,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType:
             accessor:
                 getter: getIPINT
                 setter: setIPINT
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType

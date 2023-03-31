@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing CanaAType
@@ -26,7 +26,7 @@ class CanaAType
      * Fornecimentos diários
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType[]
      * $forDia
      */
     private $forDia = null;
@@ -56,7 +56,7 @@ class CanaAType
      * Deduções - Taxas e Contribuições
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType[]
      * $deduc
      */
     private $deduc = null;
@@ -141,10 +141,10 @@ class CanaAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType
      * $forDia
      */
-    public function addToForDia(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType $forDia)
+    public function addToForDia(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType $forDia)
     {
         $this->forDia[] = $forDia;
         return $this;
@@ -182,7 +182,7 @@ class CanaAType
      * Fornecimentos diários
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType[]
      */
     public function getForDia()
     {
@@ -195,7 +195,7 @@ class CanaAType
      * Fornecimentos diários
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\ForDiaAType[]
      * $forDia
      * @return self
      */
@@ -290,10 +290,10 @@ class CanaAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType
      * $deduc
      */
-    public function addToDeduc(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType $deduc)
+    public function addToDeduc(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType $deduc)
     {
         $this->deduc[] = $deduc;
         return $this;
@@ -331,7 +331,7 @@ class CanaAType
      * Deduções - Taxas e Contribuições
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType[]
      */
     public function getDeduc()
     {
@@ -344,7 +344,7 @@ class CanaAType
      * Deduções - Taxas e Contribuições
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType\DeducAType[]
      * $deduc
      * @return self
      */

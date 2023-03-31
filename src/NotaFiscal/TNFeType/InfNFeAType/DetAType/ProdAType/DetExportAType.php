@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType;
 
 /**
  * Class representing DetExportAType
@@ -19,7 +19,7 @@ class DetExportAType
      * Exportação indireta
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
      * $exportInd
      */
     private $exportInd = null;
@@ -56,7 +56,7 @@ class DetExportAType
      * Exportação indireta
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
      */
     public function getExportInd()
     {
@@ -69,11 +69,11 @@ class DetExportAType
      * Exportação indireta
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType
      * $exportInd
      * @return self
      */
-    public function setExportInd(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType $exportInd)
+    public function setExportInd(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ProdAType\DetExportAType\ExportIndAType $exportInd)
     {
         $this->exportInd = $exportInd;
         return $this;

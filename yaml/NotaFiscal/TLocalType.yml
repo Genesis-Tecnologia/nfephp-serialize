@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType:
     properties:
         cNPJ:
             expose: true

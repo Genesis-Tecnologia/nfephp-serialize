@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TNfeProcType
@@ -17,12 +17,12 @@ class TNfeProcType
     private $versao = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType $nFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType $nFe
      */
     private $nFe = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      */
     private $protNFe = null;
 
@@ -51,7 +51,7 @@ class TNfeProcType
     /**
      * Gets as nFe
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType
      */
     public function getNFe()
     {
@@ -61,10 +61,10 @@ class TNfeProcType
     /**
      * Sets a new nFe
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType $nFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType $nFe
      * @return self
      */
-    public function setNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType $nFe)
+    public function setNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType $nFe)
     {
         $this->nFe = $nFe;
         return $this;
@@ -73,7 +73,7 @@ class TNfeProcType
     /**
      * Gets as protNFe
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType
      */
     public function getProtNFe()
     {
@@ -83,10 +83,10 @@ class TNfeProcType
     /**
      * Sets a new protNFe
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe
      * @return self
      */
-    public function setProtNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
+    public function setProtNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType $protNFe)
     {
         $this->protNFe = $protNFe;
         return $this;

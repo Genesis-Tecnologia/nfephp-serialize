@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType:
     properties:
         cST:
             expose: true

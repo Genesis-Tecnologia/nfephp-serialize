@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType:
     properties:
         algorithm:
             expose: true

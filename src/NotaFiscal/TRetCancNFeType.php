@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TRetCancNFeType
@@ -19,13 +19,13 @@ class TRetCancNFeType
     /**
      * Dados do Resultado do Pedido de Cancelamento da Nota Fiscal Eletrônica
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
      * $infCanc
      */
     private $infCanc = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature
      */
     private $signature = null;
 
@@ -56,7 +56,7 @@ class TRetCancNFeType
      *
      * Dados do Resultado do Pedido de Cancelamento da Nota Fiscal Eletrônica
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
      */
     public function getInfCanc()
     {
@@ -68,11 +68,11 @@ class TRetCancNFeType
      *
      * Dados do Resultado do Pedido de Cancelamento da Nota Fiscal Eletrônica
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType
      * $infCanc
      * @return self
      */
-    public function setInfCanc(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType $infCanc)
+    public function setInfCanc(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType\InfCancAType $infCanc)
     {
         $this->infCanc = $infCanc;
         return $this;
@@ -81,7 +81,7 @@ class TRetCancNFeType
     /**
      * Gets as signature
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature
      */
     public function getSignature()
     {
@@ -91,10 +91,10 @@ class TRetCancNFeType
     /**
      * Sets a new signature
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature
      * @return self
      */
-    public function setSignature(\JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature)
+    public function setSignature(\GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature)
     {
         $this->signature = $signature;
         return $this;

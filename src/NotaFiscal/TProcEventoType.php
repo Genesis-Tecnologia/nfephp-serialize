@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TProcEventoType
@@ -17,12 +17,12 @@ class TProcEventoType
     private $versao = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType $evento
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType $evento
      */
     private $evento = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType $retEvento
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType $retEvento
      */
     private $retEvento = null;
 
@@ -51,7 +51,7 @@ class TProcEventoType
     /**
      * Gets as evento
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType
      */
     public function getEvento()
     {
@@ -61,10 +61,10 @@ class TProcEventoType
     /**
      * Sets a new evento
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType $evento
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType $evento
      * @return self
      */
-    public function setEvento(\JansenFelipe\NFePHPSerialize\NotaFiscal\TEventoType $evento)
+    public function setEvento(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TEventoType $evento)
     {
         $this->evento = $evento;
         return $this;
@@ -73,7 +73,7 @@ class TProcEventoType
     /**
      * Gets as retEvento
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType
      */
     public function getRetEvento()
     {
@@ -83,10 +83,10 @@ class TProcEventoType
     /**
      * Sets a new retEvento
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType $retEvento
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType $retEvento
      * @return self
      */
-    public function setRetEvento(\JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType $retEvento)
+    public function setRetEvento(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType $retEvento)
     {
         $this->retEvento = $retEvento;
         return $this;

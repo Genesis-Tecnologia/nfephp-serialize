@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType:
     properties:
         algorithm:
             expose: true

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\X509DataType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\X509DataType:
     properties:
         x509Certificate:
             expose: true

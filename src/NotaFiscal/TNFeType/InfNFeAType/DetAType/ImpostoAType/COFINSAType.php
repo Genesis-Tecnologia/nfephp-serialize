@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType;
 
 /**
  * Class representing COFINSAType
@@ -16,7 +16,7 @@ class COFINSAType
      * Diferenciada);
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
      * $cOFINSAliq
      */
     private $cOFINSAliq = null;
@@ -27,7 +27,7 @@ class COFINSAType
      * por Unidade de Produto;
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
      * $cOFINSQtde
      */
     private $cOFINSQtde = null;
@@ -41,7 +41,7 @@ class COFINSAType
      * 09 - Operação com suspensão da contribuição;
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
      * $cOFINSNT
      */
     private $cOFINSNT = null;
@@ -88,7 +88,7 @@ class COFINSAType
      * 99 - Outras Operações.
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType
      * $cOFINSOutr
      */
     private $cOFINSOutr = null;
@@ -103,7 +103,7 @@ class COFINSAType
      * Diferenciada);
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
      */
     public function getCOFINSAliq()
     {
@@ -120,11 +120,11 @@ class COFINSAType
      * Diferenciada);
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType
      * $cOFINSAliq
      * @return self
      */
-    public function setCOFINSAliq(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType $cOFINSAliq)
+    public function setCOFINSAliq(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSAliqAType $cOFINSAliq)
     {
         $this->cOFINSAliq = $cOFINSAliq;
         return $this;
@@ -138,7 +138,7 @@ class COFINSAType
      * por Unidade de Produto;
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
      */
     public function getCOFINSQtde()
     {
@@ -153,11 +153,11 @@ class COFINSAType
      * por Unidade de Produto;
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType
      * $cOFINSQtde
      * @return self
      */
-    public function setCOFINSQtde(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType $cOFINSQtde)
+    public function setCOFINSQtde(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSQtdeAType $cOFINSQtde)
     {
         $this->cOFINSQtde = $cOFINSQtde;
         return $this;
@@ -174,7 +174,7 @@ class COFINSAType
      * 09 - Operação com suspensão da contribuição;
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
      */
     public function getCOFINSNT()
     {
@@ -192,11 +192,11 @@ class COFINSAType
      * 09 - Operação com suspensão da contribuição;
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType
      * $cOFINSNT
      * @return self
      */
-    public function setCOFINSNT(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType $cOFINSNT)
+    public function setCOFINSNT(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSNTAType $cOFINSNT)
     {
         $this->cOFINSNT = $cOFINSNT;
         return $this;
@@ -246,7 +246,7 @@ class COFINSAType
      * 99 - Outras Operações.
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType
      */
     public function getCOFINSOutr()
     {
@@ -297,11 +297,11 @@ class COFINSAType
      * 99 - Outras Operações.
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType
      * $cOFINSOutr
      * @return self
      */
-    public function setCOFINSOutr(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType $cOFINSOutr)
+    public function setCOFINSOutr(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoAType\COFINSAType\COFINSOutrAType $cOFINSOutr)
     {
         $this->cOFINSOutr = $cOFINSOutr;
         return $this;

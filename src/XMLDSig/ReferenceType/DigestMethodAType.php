@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType;
+namespace GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType;
 
 /**
  * Class representing DigestMethodAType

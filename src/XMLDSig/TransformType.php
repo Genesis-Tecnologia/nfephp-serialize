@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\XMLDSig;
+namespace GenesisTecnologia\NFePHPSerialize\XMLDSig;
 
 /**
  * Class representing TransformType

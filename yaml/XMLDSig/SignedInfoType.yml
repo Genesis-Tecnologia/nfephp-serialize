@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType:
     properties:
         id:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType:
             accessor:
                 getter: getCanonicalizationMethod
                 setter: setCanonicalizationMethod
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\CanonicalizationMethodAType
         signatureMethod:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType:
             accessor:
                 getter: getSignatureMethod
                 setter: setSignatureMethod
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\SignedInfoType\SignatureMethodAType
         reference:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ JansenFelipe\NFePHPSerialize\XMLDSig\SignedInfoType:
             accessor:
                 getter: getReference
                 setter: setReference
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\ReferenceType
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\ReferenceType

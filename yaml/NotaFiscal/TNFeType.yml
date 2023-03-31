@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType:
     properties:
         infNFe:
             expose: true
@@ -9,7 +9,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType:
             accessor:
                 getter: getInfNFe
                 setter: setInfNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType
         signature:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature

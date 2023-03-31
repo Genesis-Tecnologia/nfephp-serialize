@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\SignatureValueType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\SignatureValueType:
     properties:
         __value:
             expose: true

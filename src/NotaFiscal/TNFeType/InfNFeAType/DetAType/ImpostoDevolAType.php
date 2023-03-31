@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType;
 
 /**
  * Class representing ImpostoDevolAType
@@ -19,7 +19,7 @@ class ImpostoDevolAType
      * Informação de IPI devolvido
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType
      * $iPI
      */
     private $iPI = null;
@@ -56,7 +56,7 @@ class ImpostoDevolAType
      * Informação de IPI devolvido
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType
      */
     public function getIPI()
     {
@@ -69,11 +69,11 @@ class ImpostoDevolAType
      * Informação de IPI devolvido
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType
      * $iPI
      * @return self
      */
-    public function setIPI(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType $iPI)
+    public function setIPI(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType\ImpostoDevolAType\IPIAType $iPI)
     {
         $this->iPI = $iPI;
         return $this;

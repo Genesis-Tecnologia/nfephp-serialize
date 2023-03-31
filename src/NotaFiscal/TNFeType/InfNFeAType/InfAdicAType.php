@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing InfAdicAType
@@ -28,7 +28,7 @@ class InfAdicAType
      * e o conteúdo do campo no xTexto
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType[]
      * $obsCont
      */
     private $obsCont = null;
@@ -39,7 +39,7 @@ class InfAdicAType
      * e o conteúdo do campo no xTexto
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType[]
      * $obsFisco
      */
     private $obsFisco = null;
@@ -48,7 +48,7 @@ class InfAdicAType
      * Grupo de informações do processo referenciado
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType[]
      * $procRef
      */
     private $procRef = null;
@@ -114,10 +114,10 @@ class InfAdicAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType
      * $obsCont
      */
-    public function addToObsCont(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType $obsCont)
+    public function addToObsCont(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType $obsCont)
     {
         $this->obsCont[] = $obsCont;
         return $this;
@@ -161,7 +161,7 @@ class InfAdicAType
      * e o conteúdo do campo no xTexto
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType[]
      */
     public function getObsCont()
     {
@@ -176,7 +176,7 @@ class InfAdicAType
      * e o conteúdo do campo no xTexto
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsContAType[]
      * $obsCont
      * @return self
      */
@@ -195,10 +195,10 @@ class InfAdicAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType
      * $obsFisco
      */
-    public function addToObsFisco(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType $obsFisco)
+    public function addToObsFisco(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType $obsFisco)
     {
         $this->obsFisco[] = $obsFisco;
         return $this;
@@ -242,7 +242,7 @@ class InfAdicAType
      * e o conteúdo do campo no xTexto
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType[]
      */
     public function getObsFisco()
     {
@@ -257,7 +257,7 @@ class InfAdicAType
      * e o conteúdo do campo no xTexto
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ObsFiscoAType[]
      * $obsFisco
      * @return self
      */
@@ -274,10 +274,10 @@ class InfAdicAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType
      * $procRef
      */
-    public function addToProcRef(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType $procRef)
+    public function addToProcRef(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType $procRef)
     {
         $this->procRef[] = $procRef;
         return $this;
@@ -315,7 +315,7 @@ class InfAdicAType
      * Grupo de informações do processo referenciado
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType[]
      */
     public function getProcRef()
     {
@@ -328,7 +328,7 @@ class InfAdicAType
      * Grupo de informações do processo referenciado
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType\ProcRefAType[]
      * $procRef
      * @return self
      */

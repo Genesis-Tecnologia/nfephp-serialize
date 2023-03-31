@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType:
             accessor:
                 getter: getInfInut
                 setter: setInfInut
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType\InfInutAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType\InfInutAType
         signature:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType:
             accessor:
                 getter: getSignature
                 setter: setSignature
-            type: JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+            type: GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature

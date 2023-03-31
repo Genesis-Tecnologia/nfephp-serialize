@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetEventoType\InfEventoAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetEventoType\InfEventoAType:
     properties:
         id:
             expose: true

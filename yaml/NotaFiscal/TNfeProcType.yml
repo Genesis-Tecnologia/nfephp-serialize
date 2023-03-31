@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNfeProcType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNfeProcType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNfeProcType:
             accessor:
                 getter: getNFe
                 setter: setNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType
         protNFe:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNfeProcType:
             accessor:
                 getter: getProtNFe
                 setter: setProtNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType

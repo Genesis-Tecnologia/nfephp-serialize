@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TProcInutNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProcInutNFeType:
     properties:
         versao:
             expose: true
@@ -18,7 +18,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProcInutNFeType:
             accessor:
                 getter: getInutNFe
                 setter: setInutNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TInutNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TInutNFeType
         retInutNFe:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TProcInutNFeType:
             accessor:
                 getter: getRetInutNFe
                 setter: setRetInutNFe
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TRetInutNFeType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetInutNFeType

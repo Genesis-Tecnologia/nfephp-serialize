@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType;
 
 /**
  * Class representing InfNFeAType
@@ -25,7 +25,7 @@ class InfNFeAType
     /**
      * identificação da NF-e
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
      * $ide
      */
     private $ide = null;
@@ -34,7 +34,7 @@ class InfNFeAType
      * Identificação do emitente
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType $emit
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType $emit
      */
     private $emit = null;
 
@@ -42,7 +42,7 @@ class InfNFeAType
      * Emissão de avulsa, informar os dados do Fisco emitente
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
      * $avulsa
      */
     private $avulsa = null;
@@ -51,7 +51,7 @@ class InfNFeAType
      * Identificação do Destinatário
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType $dest
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType $dest
      */
     private $dest = null;
 
@@ -59,7 +59,7 @@ class InfNFeAType
      * Identificação do Local de Retirada (informar apenas quando for diferente do
      * endereço do remetente)
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType $retirada
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType $retirada
      */
     private $retirada = null;
 
@@ -67,7 +67,7 @@ class InfNFeAType
      * Identificação do Local de Entrega (informar apenas quando for diferente do
      * endereço do destinatário)
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType $entrega
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType $entrega
      */
     private $entrega = null;
 
@@ -75,7 +75,7 @@ class InfNFeAType
      * Pessoas autorizadas para o download do XML da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType[]
      * $autXML
      */
     private $autXML = null;
@@ -84,7 +84,7 @@ class InfNFeAType
      * Dados dos detalhes da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType[] $det
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType[] $det
      */
     private $det = null;
 
@@ -92,7 +92,7 @@ class InfNFeAType
      * Dados dos totais da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType $total
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType $total
      */
     private $total = null;
 
@@ -100,7 +100,7 @@ class InfNFeAType
      * Dados dos transportes da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
      * $transp
      */
     private $transp = null;
@@ -109,7 +109,7 @@ class InfNFeAType
      * Dados da cobrança da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType $cobr
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType $cobr
      */
     private $cobr = null;
 
@@ -117,7 +117,7 @@ class InfNFeAType
      * Dados de Pagamento. Obrigatório apenas para (NFC-e) NT 2012/004
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType[] $pag
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType[] $pag
      */
     private $pag = null;
 
@@ -125,7 +125,7 @@ class InfNFeAType
      * Informações adicionais da NF-e
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
      * $infAdic
      */
     private $infAdic = null;
@@ -134,7 +134,7 @@ class InfNFeAType
      * Informações de exportação
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
      * $exporta
      */
     private $exporta = null;
@@ -143,7 +143,7 @@ class InfNFeAType
      * Informações de compras (Nota de Empenho, Pedido e Contrato)
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
      * $compra
      */
     private $compra = null;
@@ -152,7 +152,7 @@ class InfNFeAType
      * Informações de registro aquisições de cana
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType $cana
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType $cana
      */
     private $cana = null;
 
@@ -213,7 +213,7 @@ class InfNFeAType
      *
      * identificação da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
      */
     public function getIde()
     {
@@ -225,11 +225,11 @@ class InfNFeAType
      *
      * identificação da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
      * $ide
      * @return self
      */
-    public function setIde(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType $ide)
+    public function setIde(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType $ide)
     {
         $this->ide = $ide;
         return $this;
@@ -240,7 +240,7 @@ class InfNFeAType
      *
      * Identificação do emitente
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType
      */
     public function getEmit()
     {
@@ -252,11 +252,11 @@ class InfNFeAType
      *
      * Identificação do emitente
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType
      * $emit
      * @return self
      */
-    public function setEmit(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType $emit)
+    public function setEmit(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType $emit)
     {
         $this->emit = $emit;
         return $this;
@@ -268,7 +268,7 @@ class InfNFeAType
      * Emissão de avulsa, informar os dados do Fisco emitente
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
      */
     public function getAvulsa()
     {
@@ -280,11 +280,11 @@ class InfNFeAType
      *
      * Emissão de avulsa, informar os dados do Fisco emitente
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
      * $avulsa
      * @return self
      */
-    public function setAvulsa(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType $avulsa)
+    public function setAvulsa(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType $avulsa)
     {
         $this->avulsa = $avulsa;
         return $this;
@@ -295,7 +295,7 @@ class InfNFeAType
      *
      * Identificação do Destinatário
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType
      */
     public function getDest()
     {
@@ -307,11 +307,11 @@ class InfNFeAType
      *
      * Identificação do Destinatário
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType
      * $dest
      * @return self
      */
-    public function setDest(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType $dest)
+    public function setDest(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType $dest)
     {
         $this->dest = $dest;
         return $this;
@@ -323,7 +323,7 @@ class InfNFeAType
      * Identificação do Local de Retirada (informar apenas quando for diferente do
      * endereço do remetente)
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType
      */
     public function getRetirada()
     {
@@ -336,10 +336,10 @@ class InfNFeAType
      * Identificação do Local de Retirada (informar apenas quando for diferente do
      * endereço do remetente)
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType $retirada
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType $retirada
      * @return self
      */
-    public function setRetirada(\JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType $retirada)
+    public function setRetirada(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType $retirada)
     {
         $this->retirada = $retirada;
         return $this;
@@ -351,7 +351,7 @@ class InfNFeAType
      * Identificação do Local de Entrega (informar apenas quando for diferente do
      * endereço do destinatário)
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType
      */
     public function getEntrega()
     {
@@ -364,10 +364,10 @@ class InfNFeAType
      * Identificação do Local de Entrega (informar apenas quando for diferente do
      * endereço do destinatário)
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType $entrega
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType $entrega
      * @return self
      */
-    public function setEntrega(\JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType $entrega)
+    public function setEntrega(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType $entrega)
     {
         $this->entrega = $entrega;
         return $this;
@@ -379,10 +379,10 @@ class InfNFeAType
      * Pessoas autorizadas para o download do XML da NF-e
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType
      * $autXML
      */
-    public function addToAutXML(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType $autXML)
+    public function addToAutXML(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType $autXML)
     {
         $this->autXML[] = $autXML;
         return $this;
@@ -420,7 +420,7 @@ class InfNFeAType
      * Pessoas autorizadas para o download do XML da NF-e
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType[]
      */
     public function getAutXML()
     {
@@ -433,7 +433,7 @@ class InfNFeAType
      * Pessoas autorizadas para o download do XML da NF-e
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType[]
      * $autXML
      * @return self
      */
@@ -449,10 +449,10 @@ class InfNFeAType
      * Dados dos detalhes da NF-e
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType
      * $det
      */
-    public function addToDet(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType $det)
+    public function addToDet(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType $det)
     {
         $this->det[] = $det;
         return $this;
@@ -489,7 +489,7 @@ class InfNFeAType
      *
      * Dados dos detalhes da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType[]
      */
     public function getDet()
     {
@@ -501,7 +501,7 @@ class InfNFeAType
      *
      * Dados dos detalhes da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType[]
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType[]
      * $det
      * @return self
      */
@@ -516,7 +516,7 @@ class InfNFeAType
      *
      * Dados dos totais da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType
      */
     public function getTotal()
     {
@@ -528,11 +528,11 @@ class InfNFeAType
      *
      * Dados dos totais da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType
      * $total
      * @return self
      */
-    public function setTotal(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType $total)
+    public function setTotal(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType $total)
     {
         $this->total = $total;
         return $this;
@@ -544,7 +544,7 @@ class InfNFeAType
      * Dados dos transportes da NF-e
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
      */
     public function getTransp()
     {
@@ -556,11 +556,11 @@ class InfNFeAType
      *
      * Dados dos transportes da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
      * $transp
      * @return self
      */
-    public function setTransp(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType $transp)
+    public function setTransp(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType $transp)
     {
         $this->transp = $transp;
         return $this;
@@ -571,7 +571,7 @@ class InfNFeAType
      *
      * Dados da cobrança da NF-e
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType
      */
     public function getCobr()
     {
@@ -583,11 +583,11 @@ class InfNFeAType
      *
      * Dados da cobrança da NF-e
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType
      * $cobr
      * @return self
      */
-    public function setCobr(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType $cobr)
+    public function setCobr(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType $cobr)
     {
         $this->cobr = $cobr;
         return $this;
@@ -599,10 +599,10 @@ class InfNFeAType
      * Dados de Pagamento. Obrigatório apenas para (NFC-e) NT 2012/004
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType
      * $pag
      */
-    public function addToPag(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType $pag)
+    public function addToPag(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType $pag)
     {
         $this->pag[] = $pag;
         return $this;
@@ -639,7 +639,7 @@ class InfNFeAType
      *
      * Dados de Pagamento. Obrigatório apenas para (NFC-e) NT 2012/004
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType[]
      */
     public function getPag()
     {
@@ -651,7 +651,7 @@ class InfNFeAType
      *
      * Dados de Pagamento. Obrigatório apenas para (NFC-e) NT 2012/004
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType[]
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType[]
      * $pag
      * @return self
      */
@@ -667,7 +667,7 @@ class InfNFeAType
      * Informações adicionais da NF-e
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
      */
     public function getInfAdic()
     {
@@ -680,11 +680,11 @@ class InfNFeAType
      * Informações adicionais da NF-e
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
      * $infAdic
      * @return self
      */
-    public function setInfAdic(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType $infAdic)
+    public function setInfAdic(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType $infAdic)
     {
         $this->infAdic = $infAdic;
         return $this;
@@ -696,7 +696,7 @@ class InfNFeAType
      * Informações de exportação
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
      */
     public function getExporta()
     {
@@ -709,11 +709,11 @@ class InfNFeAType
      * Informações de exportação
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
      * $exporta
      * @return self
      */
-    public function setExporta(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType $exporta)
+    public function setExporta(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType $exporta)
     {
         $this->exporta = $exporta;
         return $this;
@@ -725,7 +725,7 @@ class InfNFeAType
      * Informações de compras (Nota de Empenho, Pedido e Contrato)
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
      */
     public function getCompra()
     {
@@ -737,11 +737,11 @@ class InfNFeAType
      *
      * Informações de compras (Nota de Empenho, Pedido e Contrato)
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
      * $compra
      * @return self
      */
-    public function setCompra(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType $compra)
+    public function setCompra(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType $compra)
     {
         $this->compra = $compra;
         return $this;
@@ -752,7 +752,7 @@ class InfNFeAType
      *
      * Informações de registro aquisições de cana
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType
      */
     public function getCana()
     {
@@ -764,11 +764,11 @@ class InfNFeAType
      *
      * Informações de registro aquisições de cana
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType
      * $cana
      * @return self
      */
-    public function setCana(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType $cana)
+    public function setCana(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType $cana)
     {
         $this->cana = $cana;
         return $this;

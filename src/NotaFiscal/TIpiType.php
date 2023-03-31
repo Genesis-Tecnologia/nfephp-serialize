@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TIpiType
@@ -48,13 +48,13 @@ class TIpiType
     private $cEnq = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
      * $iPITrib
      */
     private $iPITrib = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType $iPINT
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType $iPINT
      */
     private $iPINT = null;
 
@@ -193,7 +193,7 @@ class TIpiType
     /**
      * Gets as iPITrib
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType
      */
     public function getIPITrib()
     {
@@ -203,10 +203,10 @@ class TIpiType
     /**
      * Sets a new iPITrib
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType $iPITrib
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType $iPITrib
      * @return self
      */
-    public function setIPITrib(\JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType $iPITrib)
+    public function setIPITrib(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPITribAType $iPITrib)
     {
         $this->iPITrib = $iPITrib;
         return $this;
@@ -215,7 +215,7 @@ class TIpiType
     /**
      * Gets as iPINT
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType
      */
     public function getIPINT()
     {
@@ -225,10 +225,10 @@ class TIpiType
     /**
      * Sets a new iPINT
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType $iPINT
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType $iPINT
      * @return self
      */
-    public function setIPINT(\JansenFelipe\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType $iPINT)
+    public function setIPINT(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TIpiType\IPINTAType $iPINT)
     {
         $this->iPINT = $iPINT;
         return $this;

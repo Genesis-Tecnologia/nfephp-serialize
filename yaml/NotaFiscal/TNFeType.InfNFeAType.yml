@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
     properties:
         versao:
             expose: true
@@ -27,7 +27,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getIde
                 setter: setIde
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\IdeAType
         emit:
             expose: true
             access_type: public_method
@@ -37,7 +37,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getEmit
                 setter: setEmit
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\EmitAType
         avulsa:
             expose: true
             access_type: public_method
@@ -47,7 +47,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getAvulsa
                 setter: setAvulsa
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AvulsaAType
         dest:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getDest
                 setter: setDest
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DestAType
         retirada:
             expose: true
             access_type: public_method
@@ -67,7 +67,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getRetirada
                 setter: setRetirada
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType
         entrega:
             expose: true
             access_type: public_method
@@ -77,7 +77,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getEntrega
                 setter: setEntrega
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TLocalType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TLocalType
         autXML:
             expose: true
             access_type: public_method
@@ -91,7 +91,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
                 inline: true
                 entry_name: autXML
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\AutXMLAType>
         det:
             expose: true
             access_type: public_method
@@ -105,7 +105,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
                 inline: true
                 entry_name: det
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\DetAType>
         total:
             expose: true
             access_type: public_method
@@ -115,7 +115,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getTotal
                 setter: setTotal
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TotalAType
         transp:
             expose: true
             access_type: public_method
@@ -125,7 +125,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getTransp
                 setter: setTransp
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType
         cobr:
             expose: true
             access_type: public_method
@@ -135,7 +135,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getCobr
                 setter: setCobr
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType
         pag:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
                 inline: true
                 entry_name: pag
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\PagAType>
         infAdic:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getInfAdic
                 setter: setInfAdic
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\InfAdicAType
         exporta:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getExporta
                 setter: setExporta
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\ExportaAType
         compra:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getCompra
                 setter: setCompra
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CompraAType
         cana:
             expose: true
             access_type: public_method
@@ -189,4 +189,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType:
             accessor:
                 getter: getCana
                 setter: setCana
-            type: JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType
+            type: GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CanaAType

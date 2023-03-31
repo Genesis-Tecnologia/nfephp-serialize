@@ -1,10 +1,10 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize;
+namespace GenesisTecnologia\NFePHPSerialize;
 
-use JansenFelipe\NFePHPSerialize\JMS\Serializer\XmlDeserializationVisitorCustom;
-use JansenFelipe\NFePHPSerialize\JMS\Serializer\XmlSerializationVisitorCustom;
-use JansenFelipe\NFePHPSerialize\NotaFiscal\NfeProc;
+use GenesisTecnologia\NFePHPSerialize\JMS\Serializer\XmlDeserializationVisitorCustom;
+use GenesisTecnologia\NFePHPSerialize\JMS\Serializer\XmlSerializationVisitorCustom;
+use GenesisTecnologia\NFePHPSerialize\NotaFiscal\NfeProc;
 use JMS\Serializer\Handler\HandlerRegistryInterface;
 use JMS\Serializer\Naming\CamelCaseNamingStrategy;
 use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
@@ -48,8 +48,8 @@ class NFePHPSerialize {
         
         $yamlDir = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'yaml';
         
-        $serializerBuilder->addMetadataDir($yamlDir.DIRECTORY_SEPARATOR.'NotaFiscal', 'JansenFelipe\NFePHPSerialize\NotaFiscal');
-        $serializerBuilder->addMetadataDir($yamlDir.DIRECTORY_SEPARATOR.'XMLDSig', 'JansenFelipe\NFePHPSerialize\XMLDSig');
+        $serializerBuilder->addMetadataDir($yamlDir.DIRECTORY_SEPARATOR.'NotaFiscal', 'GenesisTecnologia\NFePHPSerialize\NotaFiscal');
+        $serializerBuilder->addMetadataDir($yamlDir.DIRECTORY_SEPARATOR.'XMLDSig', 'GenesisTecnologia\NFePHPSerialize\XMLDSig');
         
         $serializerBuilder->configureHandlers(function (HandlerRegistryInterface $handler) use ($serializerBuilder) {
             $serializerBuilder->addDefaultHandlers();

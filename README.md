@@ -7,7 +7,7 @@ Compatível com a NFe 3.10 - Pacote de Liberação No. 8f (09/10/2014)
 Adicione a library
 
 ```sh
-$ composer require jansenfelipe/nfephp-serialize
+$ composer require GenesisTecnologia/nfephp-serialize
 ```
 
 Adicione o autoload.php do composer no seu arquivo PHP.

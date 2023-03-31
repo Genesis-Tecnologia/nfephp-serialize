@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing TranspAType
@@ -23,7 +23,7 @@ class TranspAType
      * Dados do transportador
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
      * $transporta
      */
     private $transporta = null;
@@ -32,7 +32,7 @@ class TranspAType
      * Dados da retenção ICMS do Transporte
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
      * $retTransp
      */
     private $retTransp = null;
@@ -40,14 +40,14 @@ class TranspAType
     /**
      * Dados do veículo
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType $veicTransp
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType $veicTransp
      */
     private $veicTransp = null;
 
     /**
      * Dados do reboque/Dolly (v2.0)
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType[] $reboque
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType[] $reboque
      */
     private $reboque = null;
 
@@ -69,7 +69,7 @@ class TranspAType
      * Dados dos volumes
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType[]
      * $vol
      */
     private $vol = null;
@@ -114,7 +114,7 @@ class TranspAType
      * Dados do transportador
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
      */
     public function getTransporta()
     {
@@ -127,11 +127,11 @@ class TranspAType
      * Dados do transportador
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType
      * $transporta
      * @return self
      */
-    public function setTransporta(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType $transporta)
+    public function setTransporta(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\TransportaAType $transporta)
     {
         $this->transporta = $transporta;
         return $this;
@@ -143,7 +143,7 @@ class TranspAType
      * Dados da retenção ICMS do Transporte
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
      */
     public function getRetTransp()
     {
@@ -156,11 +156,11 @@ class TranspAType
      * Dados da retenção ICMS do Transporte
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType
      * $retTransp
      * @return self
      */
-    public function setRetTransp(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType $retTransp)
+    public function setRetTransp(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\RetTranspAType $retTransp)
     {
         $this->retTransp = $retTransp;
         return $this;
@@ -171,7 +171,7 @@ class TranspAType
      *
      * Dados do veículo
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType
      */
     public function getVeicTransp()
     {
@@ -183,10 +183,10 @@ class TranspAType
      *
      * Dados do veículo
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType $veicTransp
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType $veicTransp
      * @return self
      */
-    public function setVeicTransp(\JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType $veicTransp)
+    public function setVeicTransp(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType $veicTransp)
     {
         $this->veicTransp = $veicTransp;
         return $this;
@@ -198,9 +198,9 @@ class TranspAType
      * Dados do reboque/Dolly (v2.0)
      *
      * @return self
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType $reboque
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType $reboque
      */
-    public function addToReboque(\JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType $reboque)
+    public function addToReboque(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType $reboque)
     {
         $this->reboque[] = $reboque;
         return $this;
@@ -237,7 +237,7 @@ class TranspAType
      *
      * Dados do reboque/Dolly (v2.0)
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType[]
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType[]
      */
     public function getReboque()
     {
@@ -249,7 +249,7 @@ class TranspAType
      *
      * Dados do reboque/Dolly (v2.0)
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TVeiculoType[] $reboque
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TVeiculoType[] $reboque
      * @return self
      */
     public function setReboque(array $reboque)
@@ -317,10 +317,10 @@ class TranspAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType
      * $vol
      */
-    public function addToVol(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType $vol)
+    public function addToVol(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType $vol)
     {
         $this->vol[] = $vol;
         return $this;
@@ -358,7 +358,7 @@ class TranspAType
      * Dados dos volumes
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType[]
      */
     public function getVol()
     {
@@ -371,7 +371,7 @@ class TranspAType
      * Dados dos volumes
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\TranspAType\VolAType[]
      * $vol
      * @return self
      */

@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\XMLDSig\TransformType:
+GenesisTecnologia\NFePHPSerialize\XMLDSig\TransformType:
     properties:
         algorithm:
             expose: true

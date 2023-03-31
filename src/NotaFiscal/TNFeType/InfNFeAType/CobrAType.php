@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType;
 
 /**
  * Class representing CobrAType
@@ -12,7 +12,7 @@ class CobrAType
      * Dados da fatura
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
      * $fat
      */
     private $fat = null;
@@ -21,7 +21,7 @@ class CobrAType
      * Dados das duplicatas NT 2011/004
      *
      * @property
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType[]
      * $dup
      */
     private $dup = null;
@@ -32,7 +32,7 @@ class CobrAType
      * Dados da fatura
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
      */
     public function getFat()
     {
@@ -45,11 +45,11 @@ class CobrAType
      * Dados da fatura
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType
      * $fat
      * @return self
      */
-    public function setFat(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType $fat)
+    public function setFat(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\FatAType $fat)
     {
         $this->fat = $fat;
         return $this;
@@ -62,10 +62,10 @@ class CobrAType
      *
      * @return self
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType
      * $dup
      */
-    public function addToDup(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType $dup)
+    public function addToDup(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType $dup)
     {
         $this->dup[] = $dup;
         return $this;
@@ -103,7 +103,7 @@ class CobrAType
      * Dados das duplicatas NT 2011/004
      *
      * @return
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType[]
      */
     public function getDup()
     {
@@ -116,7 +116,7 @@ class CobrAType
      * Dados das duplicatas NT 2011/004
      *
      * @param
-     * \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType[]
+     * \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType\CobrAType\DupAType[]
      * $dup
      * @return self
      */

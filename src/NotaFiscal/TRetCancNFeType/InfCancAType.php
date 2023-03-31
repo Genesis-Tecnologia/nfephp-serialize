@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal\TRetCancNFeType;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetCancNFeType;
 
 /**
  * Class representing InfCancAType

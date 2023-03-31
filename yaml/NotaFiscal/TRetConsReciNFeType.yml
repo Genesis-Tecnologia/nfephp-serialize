@@ -1,4 +1,4 @@
-JansenFelipe\NFePHPSerialize\NotaFiscal\TRetConsReciNFeType:
+GenesisTecnologia\NFePHPSerialize\NotaFiscal\TRetConsReciNFeType:
     properties:
         versao:
             expose: true
@@ -112,4 +112,4 @@ JansenFelipe\NFePHPSerialize\NotaFiscal\TRetConsReciNFeType:
                 inline: true
                 entry_name: protNFe
                 namespace: 'http://www.portalfiscal.inf.br/nfe'
-            type: array<JansenFelipe\NFePHPSerialize\NotaFiscal\TProtNFeType>
+            type: array<GenesisTecnologia\NFePHPSerialize\NotaFiscal\TProtNFeType>

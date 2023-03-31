@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\NFePHPSerialize\NotaFiscal;
+namespace GenesisTecnologia\NFePHPSerialize\NotaFiscal;
 
 /**
  * Class representing TNFeType
@@ -14,12 +14,12 @@ class TNFeType
     /**
      * Informações da Nota Fiscal eletrônica
      *
-     * @property \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType $infNFe
+     * @property \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType $infNFe
      */
     private $infNFe = null;
 
     /**
-     * @property \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
+     * @property \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature
      */
     private $signature = null;
 
@@ -28,7 +28,7 @@ class TNFeType
      *
      * Informações da Nota Fiscal eletrônica
      *
-     * @return \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType
+     * @return \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType
      */
     public function getInfNFe()
     {
@@ -40,10 +40,10 @@ class TNFeType
      *
      * Informações da Nota Fiscal eletrônica
      *
-     * @param \JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType $infNFe
+     * @param \GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType $infNFe
      * @return self
      */
-    public function setInfNFe(\JansenFelipe\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType $infNFe)
+    public function setInfNFe(\GenesisTecnologia\NFePHPSerialize\NotaFiscal\TNFeType\InfNFeAType $infNFe)
     {
         $this->infNFe = $infNFe;
         return $this;
@@ -52,7 +52,7 @@ class TNFeType
     /**
      * Gets as signature
      *
-     * @return \JansenFelipe\NFePHPSerialize\XMLDSig\Signature
+     * @return \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature
      */
     public function getSignature()
     {
@@ -62,10 +62,10 @@ class TNFeType
     /**
      * Sets a new signature
      *
-     * @param \JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature
+     * @param \GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature
      * @return self
      */
-    public function setSignature(\JansenFelipe\NFePHPSerialize\XMLDSig\Signature $signature)
+    public function setSignature(\GenesisTecnologia\NFePHPSerialize\XMLDSig\Signature $signature)
     {
         $this->signature = $signature;
         return $this;
